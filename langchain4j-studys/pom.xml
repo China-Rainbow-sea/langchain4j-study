@@ -11,6 +11,12 @@
 
     <modules>
         <module>langchain4j-01helloworld</module>
+        <module>langchain4j-02low-high-api</module>
+        <module>langchain4j-03model-parameters</module>
+        <module>langchain4j-04chat-image</module>
+        <module>langchain4j-05chat-stream</module>
+        <module>langchain4j-06chat-memory</module>
+        <module>langchain4j-07chat-prompt</module>
     </modules>
 
     <properties>
@@ -52,7 +58,19 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+
+            <!--引入阿里云百炼平台依赖管理清单
+   https://docs.langchain4j.dev/integrations/language-models/dashscope
+   -->
+            <dependency>
+                <groupId>dev.langchain4j</groupId>
+                <artifactId>langchain4j-community-bom</artifactId>
+                <version>${langchain4j-community.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
         </dependencies>
+
     </dependencyManagement>
 
     <build>
