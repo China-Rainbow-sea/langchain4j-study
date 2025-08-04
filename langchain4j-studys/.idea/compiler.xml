@@ -9,11 +9,15 @@
         <outputRelativeToContentRoot value="true" />
         <module name="langchain4j-03model-parameters" />
         <module name="langchain4j-01helloworld" />
+        <module name="langchain4j-09chat-persistence" />
+        <module name="langchain4j-10chat-functioncalling" />
         <module name="langchain4j-05chat-stream" />
         <module name="langchain4j-06chat-memory" />
+        <module name="langchain4j-08boot-integration" />
         <module name="langchain4j-07chat-prompt" />
         <module name="langchain4j-02low-high-api" />
         <module name="langchain4j-04chat-image" />
+        <module name="langchain4j-11chat-embedding" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="17" />

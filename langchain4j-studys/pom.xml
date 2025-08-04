@@ -17,6 +17,10 @@
         <module>langchain4j-05chat-stream</module>
         <module>langchain4j-06chat-memory</module>
         <module>langchain4j-07chat-prompt</module>
+        <module>langchain4j-08boot-integration</module>
+        <module>langchain4j-09chat-persistence</module>
+        <module>langchain4j-10chat-functioncalling</module>
+        <module>langchain4j-11chat-embedding</module>
     </modules>
 
     <properties>
@@ -49,6 +53,16 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+
+            <!-- Spring AI -->
+            <dependency>
+                <groupId>org.springframework.ai</groupId>
+                <artifactId>spring-ai-bom</artifactId>
+                <version>${spring-ai.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
             <!-- 加载bom 后，所有langchain4j引用不需要加版本号 -->
             <!--langchain4j的依赖清单 https://docs.langchain4j.dev/get-started -->
             <dependency>
