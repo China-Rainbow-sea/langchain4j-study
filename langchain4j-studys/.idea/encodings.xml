@@ -23,6 +23,8 @@
     <file url="file://$PROJECT_DIR$/langchain4j-10chat-functioncalling/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/langchain4j-11chat-embedding/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/langchain4j-11chat-embedding/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/langchain4j-12chat-rag/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/langchain4j-12chat-rag/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
